@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+    app:
+        image: ubuntu
+        container_name: ubuntu
+        command: ["sleep","infinity"]
+        volumes:
+            - ./data:/etc/data
